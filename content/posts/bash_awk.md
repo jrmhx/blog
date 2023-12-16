@@ -56,7 +56,7 @@ The solution of this problem is straight forward, bascially in 3 steps:
 
 However, implementing this in a shell script can be hard, especially for people who aren't familiar with Linux Shell Script. It's even more challenging if you want to write it in a single line of script code (and yeah all Linux developers do it cause it looks cool af XD)
 
-But no worries, let's break the damn thing down with [Shell Pipe](/blog/posts/bash_awk/). If you don't know what it is, I have another [blog](/blog/posts/bash_awk/) about that and feel free to check it out.
+But no worries, let's break the damn thing down with [Shell Pipe](/blog/posts/bash_pipe/). If you don't know what it is, I have another [blog](/blog/posts/bash_pipe/) about that and feel free to check it out.
 
 
 ## Solution:
