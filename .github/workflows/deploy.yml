@@ -2,7 +2,7 @@ name: Publish to GH Pages
 on:
   push:
     branches:
-      - master
+      - main
   pull_request:
 
 jobs:
@@ -37,4 +37,4 @@ jobs:
           git config user.name 'dhij'
           git config user.email 'davidhwang.ij@gmail.com'
           git commit -m 'Updated site'
-          git push    
+          git push          
