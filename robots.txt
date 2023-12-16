@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://jeremiahxing.github.io/blog/sitemap.xml

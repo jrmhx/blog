@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on Jeremiah&#39;s Blog</title>
+    <link>https://jeremiahxing.github.io/blog/tags/</link>
+    <description>Recent content in Tags on Jeremiah&#39;s Blog</description>
+    <image>
+      <title>Jeremiah&#39;s Blog</title>
+      <url>https://jeremiahxing.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://jeremiahxing.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 17 Dec 2023 00:54:00 +1100</lastBuildDate><atom:link href="https://jeremiahxing.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>awk</title>
+      <link>https://jeremiahxing.github.io/blog/tags/awk/</link>
+      <pubDate>Sun, 17 Dec 2023 00:54:00 +1100</pubDate>
+      
+      <guid>https://jeremiahxing.github.io/blog/tags/awk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://jeremiahxing.github.io/blog/tags/linux/</link>
+      <pubDate>Sun, 17 Dec 2023 00:54:00 +1100</pubDate>
+      
+      <guid>https://jeremiahxing.github.io/blog/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>shell</title>
+      <link>https://jeremiahxing.github.io/blog/tags/shell/</link>
+      <pubDate>Sun, 17 Dec 2023 00:54:00 +1100</pubDate>
+      
+      <guid>https://jeremiahxing.github.io/blog/tags/shell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CLI</title>
+      <link>https://jeremiahxing.github.io/blog/tags/cli/</link>
+      <pubDate>Sun, 17 Dec 2023 00:00:00 +1100</pubDate>
+      
+      <guid>https://jeremiahxing.github.io/blog/tags/cli/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
