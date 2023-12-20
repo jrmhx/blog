@@ -146,3 +146,7 @@ outputs:
         - HTML
         - RSS
         - JSON # is necessary for search
+
+module:
+  imports:
+  - path: github.com/adityatelange/hugo-PaperMod
