@@ -21,10 +21,16 @@ jobs:
           ref: gh-pages
           path: built-site
 
+      - name: Set up Go
+        uses: actions/setup-go@v3
+        with:
+          go-version: '1.21.5' # Specify the Go version
+
       - name: Setup Hugo
         run: |
           curl -L -o /tmp/hugo.tar.gz 'https://github.com/gohugoio/hugo/releases/download/v0.110.0/hugo_extended_0.110.0_linux-amd64.tar.gz'
-          tar -C ${RUNNER_TEMP} -zxvf /tmp/hugo.tar.gz hugo          
+          tar -C ${RUNNER_TEMP} -zxvf /tmp/hugo.tar.gz hugo
+
       - name: Build
         run: ${RUNNER_TEMP}/hugo
 
@@ -34,7 +40,7 @@ jobs:
           cp -R public/* ${GITHUB_WORKSPACE}/built-site/
           cd ${GITHUB_WORKSPACE}/built-site
           git add .
-          git config user.name 'dhij'
-          git config user.email 'davidhwang.ij@gmail.com'
+          git config user.name 'JeremiahXing'
+          git config user.email 'jeremiah.hsing@gmail.com'
           git commit -m 'Updated site'
-          git push          
+          git push
