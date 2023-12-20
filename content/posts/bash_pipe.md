@@ -6,7 +6,7 @@ date: 2023-12-17T00:00:00+11:00
 tags: ["shell", "CLI"]
 author: "Jeremiah Hsing"
 # author: ["Me", "You"] # multiple authors
-categories: ["Programming"]
+categories: ["Programming", "Linux Shell"]
 draft: false
 ---
 

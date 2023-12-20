@@ -12,7 +12,7 @@ cover:
     caption: "<text>" # display caption under cover
     relative: false # when using page bundles set this to true
     hidden: true # only hide on current single page
-categories: ["Programming"]
+categories: ["Programming", "Linux Shell"]
 draft: false
 ---
 
