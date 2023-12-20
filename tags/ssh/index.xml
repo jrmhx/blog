@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SSH on Jeremiah&#39;s Blog</title>
     <link>https://jeremiahxing.github.io/blog/tags/ssh/</link>
@@ -10,17 +10,17 @@
       <link>https://jeremiahxing.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 20 Dec 2023 00:54:00 +1100</lastBuildDate><atom:link href="https://jeremiahxing.github.io/blog/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Wed, 20 Dec 2023 00:54:00 +1100</lastBuildDate>
+    <atom:link href="https://jeremiahxing.github.io/blog/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Secure and Low-latency SSH Connection: Setting Up via Tailscale</title>
       <link>https://jeremiahxing.github.io/blog/posts/ssh_tailscale/</link>
       <pubDate>Wed, 20 Dec 2023 00:54:00 +1100</pubDate>
-      
       <guid>https://jeremiahxing.github.io/blog/posts/ssh_tailscale/</guid>
       <description>Introduction In our interconnected digital age, it&amp;rsquo;s crucial to access our devices securely from any location. This guide will walk you through setting up a VPN with Tailscale, facilitating a seamless and secure connection between an Ubuntu desktop (acting as the server) and a MacBook.
 For those in a hurry, jump straight to the instructions. If you&amp;rsquo;re curious, here are some Q&amp;amp;As:
 What is SSH? How does SSH help us develop remotely?</description>
     </item>
-    
   </channel>
 </rss>

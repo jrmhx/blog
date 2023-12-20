@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CLI on Jeremiah&#39;s Blog</title>
     <link>https://jeremiahxing.github.io/blog/tags/cli/</link>
@@ -10,16 +10,16 @@
       <link>https://jeremiahxing.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 17 Dec 2023 00:00:00 +1100</lastBuildDate><atom:link href="https://jeremiahxing.github.io/blog/tags/cli/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Sun, 17 Dec 2023 00:00:00 +1100</lastBuildDate>
+    <atom:link href="https://jeremiahxing.github.io/blog/tags/cli/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Shell Pipes: Simplifying Command Line Tasks</title>
       <link>https://jeremiahxing.github.io/blog/posts/bash_pipe/</link>
       <pubDate>Sun, 17 Dec 2023 00:00:00 +1100</pubDate>
-      
       <guid>https://jeremiahxing.github.io/blog/posts/bash_pipe/</guid>
       <description>Shell pipes are a powerful feature of command-line interfaces in Unix and Unix-like systems, including Linux and macOS. They allow you to pass the output of one command directly into another command, creating a &amp;ldquo;pipeline&amp;rdquo; of operations. This can greatly simplify your tasks and enable efficient data processing. In this post, we&amp;rsquo;ll explore the basics of shell pipes and see some practical examples.
 What is a Shell Pipe? A shell pipe, denoted by the | symbol, takes the output (stdout) of one command and uses it as the input (stdin) for the next command.</description>
     </item>
-    
   </channel>
 </rss>

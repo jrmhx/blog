@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Jeremiah&#39;s Blog</title>
     <link>https://jeremiahxing.github.io/blog/categories/</link>
@@ -10,33 +10,29 @@
       <link>https://jeremiahxing.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 20 Dec 2023 00:54:00 +1100</lastBuildDate><atom:link href="https://jeremiahxing.github.io/blog/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Wed, 20 Dec 2023 00:54:00 +1100</lastBuildDate>
+    <atom:link href="https://jeremiahxing.github.io/blog/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Coding Setup</title>
       <link>https://jeremiahxing.github.io/blog/categories/coding-setup/</link>
       <pubDate>Wed, 20 Dec 2023 00:54:00 +1100</pubDate>
-      
       <guid>https://jeremiahxing.github.io/blog/categories/coding-setup/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Linux Shell</title>
       <link>https://jeremiahxing.github.io/blog/categories/linux-shell/</link>
       <pubDate>Sun, 17 Dec 2023 00:54:00 +1100</pubDate>
-      
       <guid>https://jeremiahxing.github.io/blog/categories/linux-shell/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Programming</title>
       <link>https://jeremiahxing.github.io/blog/categories/programming/</link>
       <pubDate>Sun, 17 Dec 2023 00:54:00 +1100</pubDate>
-      
       <guid>https://jeremiahxing.github.io/blog/categories/programming/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>
