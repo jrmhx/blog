@@ -24,7 +24,7 @@ For those in a hurry, jump straight to the instructions. If you're curious, here
 
 - [What is SSH?](https://www.techtarget.com/searchsecurity/definition/Secure-Shell)
 - [How does SSH help us develop remotely?](https://code.visualstudio.com/docs/remote/ssh)
-![ssh](../../static/post_images/0/ssh.webp)
+![ssh](images/post_images/0/ssh.webp)
 - [What is a VPN?](https://en.wikipedia.org/wiki/Virtual_private_network)
 - [Why use SSH and VPN in combination?](https://networkengineering.stackexchange.com/questions/23959/why-use-ssh-and-vpn-in-combination)
 
@@ -54,7 +54,7 @@ On Mac (with the Tailscale CLI version):
 tailscale up
 ```
 Once you've linked the devices, you'll see an output resembling the following:
-![tailscale_dashboard](../../static/post_images/0/tailscale_dashboard.webp)
+![tailscale_dashboard](images/post_images/0/tailscale_dashboard.webp)
 The IP address is auto-allocated by Tailscale once your device gets connected. (and for sure it’s not 127.0.0.1 Lol)
 
 ## Connect Your Devices in IDE
@@ -69,4 +69,4 @@ If you've managed to connect successfully using SSH, you might want to set up an
 
 Here's a glimpse of the vscode SSH connection terminal on my laptop:
 
-![vsc_ssh](../../static/post_images/0/vscode_ssh.webp)
+![vsc_ssh](images/post_images/0/vscode_ssh.webp)
