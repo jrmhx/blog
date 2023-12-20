@@ -2,28 +2,49 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jeremiahxing.github.io/blog/tags/awk/</loc>
-    <lastmod>2023-12-17T00:54:00+11:00</lastmod>
-  </url><url>
     <loc>https://jeremiahxing.github.io/blog/categories/</loc>
-    <lastmod>2023-12-17T00:54:00+11:00</lastmod>
+    <lastmod>2023-12-20T00:54:00+11:00</lastmod>
+  </url><url>
+    <loc>https://jeremiahxing.github.io/blog/categories/coding-setup/</loc>
+    <lastmod>2023-12-20T00:54:00+11:00</lastmod>
   </url><url>
     <loc>https://jeremiahxing.github.io/blog/</loc>
+    <lastmod>2023-12-20T00:54:00+11:00</lastmod>
+  </url><url>
+    <loc>https://jeremiahxing.github.io/blog/posts/</loc>
+    <lastmod>2023-12-20T00:54:00+11:00</lastmod>
+  </url><url>
+    <loc>https://jeremiahxing.github.io/blog/posts/ssh_tailscale/</loc>
+    <lastmod>2023-12-20T00:54:00+11:00</lastmod>
+  </url><url>
+    <loc>https://jeremiahxing.github.io/blog/tags/ssh/</loc>
+    <lastmod>2023-12-20T00:54:00+11:00</lastmod>
+  </url><url>
+    <loc>https://jeremiahxing.github.io/blog/tags/</loc>
+    <lastmod>2023-12-20T00:54:00+11:00</lastmod>
+  </url><url>
+    <loc>https://jeremiahxing.github.io/blog/tags/tailscale/</loc>
+    <lastmod>2023-12-20T00:54:00+11:00</lastmod>
+  </url><url>
+    <loc>https://jeremiahxing.github.io/blog/tags/vpn/</loc>
+    <lastmod>2023-12-20T00:54:00+11:00</lastmod>
+  </url><url>
+    <loc>https://jeremiahxing.github.io/blog/tags/working-remotely/</loc>
+    <lastmod>2023-12-20T00:54:00+11:00</lastmod>
+  </url><url>
+    <loc>https://jeremiahxing.github.io/blog/tags/awk/</loc>
     <lastmod>2023-12-17T00:54:00+11:00</lastmod>
   </url><url>
     <loc>https://jeremiahxing.github.io/blog/tags/linux/</loc>
     <lastmod>2023-12-17T00:54:00+11:00</lastmod>
   </url><url>
-    <loc>https://jeremiahxing.github.io/blog/posts/</loc>
+    <loc>https://jeremiahxing.github.io/blog/categories/linux-shell/</loc>
     <lastmod>2023-12-17T00:54:00+11:00</lastmod>
   </url><url>
     <loc>https://jeremiahxing.github.io/blog/categories/programming/</loc>
     <lastmod>2023-12-17T00:54:00+11:00</lastmod>
   </url><url>
     <loc>https://jeremiahxing.github.io/blog/tags/shell/</loc>
-    <lastmod>2023-12-17T00:54:00+11:00</lastmod>
-  </url><url>
-    <loc>https://jeremiahxing.github.io/blog/tags/</loc>
     <lastmod>2023-12-17T00:54:00+11:00</lastmod>
   </url><url>
     <loc>https://jeremiahxing.github.io/blog/posts/bash_awk/</loc>
