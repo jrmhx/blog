@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>linux on Jeremiah&#39;s Blog</title>
-    <link>https://jeremiahxing.github.io/blog/tags/linux/</link>
+    <link>https://jrmh.dev/tags/linux/</link>
     <description>Recent content in linux on Jeremiah&#39;s Blog</description>
     <image>
       <title>Jeremiah&#39;s Blog</title>
-      <url>https://jeremiahxing.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://jeremiahxing.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://jrmh.dev/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://jrmh.dev/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 17 Dec 2023 00:54:00 +1100</lastBuildDate>
-    <atom:link href="https://jeremiahxing.github.io/blog/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jrmh.dev/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Understand awk in Linux Shell</title>
-      <link>https://jeremiahxing.github.io/blog/posts/bash_awk/</link>
+      <link>https://jrmh.dev/posts/bash_awk/</link>
       <pubDate>Sun, 17 Dec 2023 00:54:00 +1100</pubDate>
-      <guid>https://jeremiahxing.github.io/blog/posts/bash_awk/</guid>
+      <guid>https://jrmh.dev/posts/bash_awk/</guid>
       <description>What is awk? awk is a powerful scripting language and command-line utility for text-processing in Unix/Linux environments. It scans each line of a file, looking for patterns that match, and then processes the line accordingly (kinda like reduce in JavaScript but has difference). It&amp;rsquo;s excellent for manipulating structured text data like CSV, logs, or even simple text files.
 Basic Syntax The basic syntax of awk is:
 awk &amp;#39;pattern {action}&amp;#39; file pattern: A condition to match (like regex or conditional expressions).</description>

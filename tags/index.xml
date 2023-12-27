@@ -2,71 +2,71 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Jeremiah&#39;s Blog</title>
-    <link>https://jeremiahxing.github.io/blog/tags/</link>
+    <link>https://jrmh.dev/tags/</link>
     <description>Recent content in Tags on Jeremiah&#39;s Blog</description>
     <image>
       <title>Jeremiah&#39;s Blog</title>
-      <url>https://jeremiahxing.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://jeremiahxing.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://jrmh.dev/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://jrmh.dev/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 20 Dec 2023 00:55:00 +1100</lastBuildDate>
-    <atom:link href="https://jeremiahxing.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jrmh.dev/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SSH</title>
-      <link>https://jeremiahxing.github.io/blog/tags/ssh/</link>
+      <link>https://jrmh.dev/tags/ssh/</link>
       <pubDate>Wed, 20 Dec 2023 00:55:00 +1100</pubDate>
-      <guid>https://jeremiahxing.github.io/blog/tags/ssh/</guid>
+      <guid>https://jrmh.dev/tags/ssh/</guid>
       <description></description>
     </item>
     <item>
       <title>Tailscale</title>
-      <link>https://jeremiahxing.github.io/blog/tags/tailscale/</link>
+      <link>https://jrmh.dev/tags/tailscale/</link>
       <pubDate>Wed, 20 Dec 2023 00:55:00 +1100</pubDate>
-      <guid>https://jeremiahxing.github.io/blog/tags/tailscale/</guid>
+      <guid>https://jrmh.dev/tags/tailscale/</guid>
       <description></description>
     </item>
     <item>
       <title>VPN</title>
-      <link>https://jeremiahxing.github.io/blog/tags/vpn/</link>
+      <link>https://jrmh.dev/tags/vpn/</link>
       <pubDate>Wed, 20 Dec 2023 00:55:00 +1100</pubDate>
-      <guid>https://jeremiahxing.github.io/blog/tags/vpn/</guid>
+      <guid>https://jrmh.dev/tags/vpn/</guid>
       <description></description>
     </item>
     <item>
       <title>working remotely</title>
-      <link>https://jeremiahxing.github.io/blog/tags/working-remotely/</link>
+      <link>https://jrmh.dev/tags/working-remotely/</link>
       <pubDate>Wed, 20 Dec 2023 00:55:00 +1100</pubDate>
-      <guid>https://jeremiahxing.github.io/blog/tags/working-remotely/</guid>
+      <guid>https://jrmh.dev/tags/working-remotely/</guid>
       <description></description>
     </item>
     <item>
       <title>awk</title>
-      <link>https://jeremiahxing.github.io/blog/tags/awk/</link>
+      <link>https://jrmh.dev/tags/awk/</link>
       <pubDate>Sun, 17 Dec 2023 00:54:00 +1100</pubDate>
-      <guid>https://jeremiahxing.github.io/blog/tags/awk/</guid>
+      <guid>https://jrmh.dev/tags/awk/</guid>
       <description></description>
     </item>
     <item>
       <title>linux</title>
-      <link>https://jeremiahxing.github.io/blog/tags/linux/</link>
+      <link>https://jrmh.dev/tags/linux/</link>
       <pubDate>Sun, 17 Dec 2023 00:54:00 +1100</pubDate>
-      <guid>https://jeremiahxing.github.io/blog/tags/linux/</guid>
+      <guid>https://jrmh.dev/tags/linux/</guid>
       <description></description>
     </item>
     <item>
       <title>shell</title>
-      <link>https://jeremiahxing.github.io/blog/tags/shell/</link>
+      <link>https://jrmh.dev/tags/shell/</link>
       <pubDate>Sun, 17 Dec 2023 00:54:00 +1100</pubDate>
-      <guid>https://jeremiahxing.github.io/blog/tags/shell/</guid>
+      <guid>https://jrmh.dev/tags/shell/</guid>
       <description></description>
     </item>
     <item>
       <title>CLI</title>
-      <link>https://jeremiahxing.github.io/blog/tags/cli/</link>
+      <link>https://jrmh.dev/tags/cli/</link>
       <pubDate>Sun, 17 Dec 2023 00:00:00 +1100</pubDate>
-      <guid>https://jeremiahxing.github.io/blog/tags/cli/</guid>
+      <guid>https://jrmh.dev/tags/cli/</guid>
       <description></description>
     </item>
   </channel>

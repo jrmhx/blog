@@ -2,36 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Jeremiah&#39;s Blog</title>
-    <link>https://jeremiahxing.github.io/blog/categories/</link>
+    <link>https://jrmh.dev/categories/</link>
     <description>Recent content in Categories on Jeremiah&#39;s Blog</description>
     <image>
       <title>Jeremiah&#39;s Blog</title>
-      <url>https://jeremiahxing.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://jeremiahxing.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://jrmh.dev/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://jrmh.dev/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 20 Dec 2023 00:55:00 +1100</lastBuildDate>
-    <atom:link href="https://jeremiahxing.github.io/blog/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jrmh.dev/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Coding Setup</title>
-      <link>https://jeremiahxing.github.io/blog/categories/coding-setup/</link>
+      <link>https://jrmh.dev/categories/coding-setup/</link>
       <pubDate>Wed, 20 Dec 2023 00:55:00 +1100</pubDate>
-      <guid>https://jeremiahxing.github.io/blog/categories/coding-setup/</guid>
+      <guid>https://jrmh.dev/categories/coding-setup/</guid>
       <description></description>
     </item>
     <item>
       <title>Linux Shell</title>
-      <link>https://jeremiahxing.github.io/blog/categories/linux-shell/</link>
+      <link>https://jrmh.dev/categories/linux-shell/</link>
       <pubDate>Sun, 17 Dec 2023 00:54:00 +1100</pubDate>
-      <guid>https://jeremiahxing.github.io/blog/categories/linux-shell/</guid>
+      <guid>https://jrmh.dev/categories/linux-shell/</guid>
       <description></description>
     </item>
     <item>
       <title>Programming</title>
-      <link>https://jeremiahxing.github.io/blog/categories/programming/</link>
+      <link>https://jrmh.dev/categories/programming/</link>
       <pubDate>Sun, 17 Dec 2023 00:54:00 +1100</pubDate>
-      <guid>https://jeremiahxing.github.io/blog/categories/programming/</guid>
+      <guid>https://jrmh.dev/categories/programming/</guid>
       <description></description>
     </item>
   </channel>
