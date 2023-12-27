@@ -11,12 +11,12 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 20 Dec 2023 00:54:00 +1100</lastBuildDate>
+    <lastBuildDate>Wed, 20 Dec 2023 00:55:00 +1100</lastBuildDate>
     <atom:link href="https://jeremiahxing.github.io/blog/tags/working-remotely/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Secure and Low-latency SSH Connection: Setting Up via Tailscale</title>
       <link>https://jeremiahxing.github.io/blog/posts/ssh_tailscale/</link>
-      <pubDate>Wed, 20 Dec 2023 00:54:00 +1100</pubDate>
+      <pubDate>Wed, 20 Dec 2023 00:55:00 +1100</pubDate>
       <guid>https://jeremiahxing.github.io/blog/posts/ssh_tailscale/</guid>
       <description>Introduction In our interconnected digital age, it&amp;rsquo;s crucial to access our devices securely from any location. This guide will walk you through setting up a VPN with Tailscale, facilitating a seamless and secure connection between an Ubuntu desktop (acting as the server) and a MacBook.
 For those in a hurry, jump straight to the instructions. If you&amp;rsquo;re curious, here are some Q&amp;amp;As:
