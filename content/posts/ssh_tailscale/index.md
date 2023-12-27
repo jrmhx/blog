@@ -1,6 +1,6 @@
 ---
 title: "Secure and Low-latency SSH Connection: Setting Up via Tailscale"
-date: 2023-12-20T00:54:00+11:00
+date: 2023-12-20T00:55:00+11:00
 # weight: 1
 # aliases: ["/first"]
 tags: ["Tailscale", "SSH", "VPN", "working remotely"]
