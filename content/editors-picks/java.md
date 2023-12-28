@@ -1,6 +1,5 @@
 ---
 title: "Java"
-date: 2023-12-29T00:15:00+11:00
 # weight: 1
 # aliases: ["/first"]
 # author: ["Me", "You"] # multiple authors
