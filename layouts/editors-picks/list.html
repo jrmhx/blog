@@ -1,0 +1,70 @@
+{{- define "main" }}
+
+{{/* Check for profile mode, but remove check for home page */}}
+{{- if site.Params.profileMode.enabled }}
+{{- partial "index_profile.html" . }}
+{{- else }}
+
+{{/* Header for the editors-picks Page */}}
+<header class="page-header">
+  <h1>Editor's Picks</h1>
+  <div class="post-description">
+    In my humble opinion, good computer science study recourses (textbooks, tutorials, open courses
+    <span id="more-text" style="display:none;">
+      ...) should be human-centered, rather than brag about technical jargon and theory.
+        <br>
+        Telling the reader '<i>what it is</i>' is indeed important, 
+        but a better approach would be for the textbook author to integrate their decades of experience 
+        in the field into the book, explaining to the reader '<i>why it is so</i>' and '<i>what should be done in the future</i>'.
+    </span>
+    <a href="javascript:void(0);" id="read-more-link" onclick="showMore()"><strong>...more</strong></a>
+  </div>
+</header>
+
+{{- $pages := union .RegularPages .Sections }}
+{{- $paginator := .Paginate $pages }}
+
+{{- range $paginator.Pages }}
+<article class="post-entry">
+  <header class="entry-header">
+    <h2 class="entry-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+  </header>
+  {{ if not (.Param "hideMeta") }}
+  <footer class="entry-footer">
+    {{- partial "post_meta.html" . -}}
+  </footer>
+  {{ end }}
+</article>
+{{- end }}
+
+{{- if gt $paginator.TotalPages 1 }}
+<footer class="page-footer">
+  <nav class="pagination">
+    {{- if $paginator.HasPrev }}
+    <a class="prev" href="{{ $paginator.Prev.URL | absURL }}">« {{ i18n "prev_page" }}</a>
+    {{- end }}
+    {{- if $paginator.HasNext }}
+    <a class="next" href="{{ $paginator.Next.URL | absURL }}">{{ i18n "next_page" }} »</a>
+    {{- end }}
+  </nav>
+</footer>
+{{- end }}
+
+{{- end }}
+
+<script>
+  function showMore() {
+    var moreText = document.getElementById("more-text");
+    var readMoreLink = document.getElementById("read-more-link");
+  
+    if (moreText.style.display === "none") {
+      moreText.style.display = "inline";
+      readMoreLink.innerHTML = "<strong> less </strong>"; // Change the text of the link to "less"
+    } else {
+      moreText.style.display = "none";
+      readMoreLink.innerHTML = "<strong> ...more </strong>"; // Change the text of the link to "...more"
+    }
+  }
+</script>
+
+{{- end }}

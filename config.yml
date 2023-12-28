@@ -54,7 +54,7 @@ params:
 
   label:
     text: "Home"
-    icon: icons/apple-touch-icon.png
+    # icon: icons/apple-touch-icon.png
     iconHeight: 35
 
   # profile-mode
@@ -74,24 +74,29 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: I'm Jeremiah, welcome to my blog :)
+    Title: "Hi there,"
+    Content: | 
+      - I'm Jeremiah, this is where I share my journey as I explore the world of programming and more. 
+      -
+      - Feel free to contribute to my blog by clicking "edit🖋️" in the related post and submit a PR :)
 
   socialIcons:
     - name: linkedin
       url: "https://www.linkedin.com/in/jeremiahhsing/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com/users/16084078/jeremiah"
     - name: github
       url: "https://github.com/JeremiahXing"
+    - name: email
+      url: "mailto:jeremiah.hsing@gmail.com"
+    - name: stackoverflow
+      url: "https://stackoverflow.com/users/16084078/"
 
-  analytics:
-    google:
-      SiteVerificationTag: "XYZabc" # please change this to your own
-    bing:
-      SiteVerificationTag: "XYZabc" # please change this to your own
-    yandex:
-      SiteVerificationTag: "XYZabc" # please change this to your own
+  # analytics:
+  #   google:
+  #     SiteVerificationTag: "XYZabc" # please change this to your own
+  #   bing:
+  #     SiteVerificationTag: "XYZabc" # please change this to your own
+  #   yandex:
+  #     SiteVerificationTag: "XYZabc" # please change this to your own
 
   cover:
     hidden: true # hide everywhere but not in structured data
@@ -100,7 +105,7 @@ params:
 
   editPost:
     URL: "https://github.com/JeremiahXing/blog/tree/main/content"
-    Text: "Suggest Changes" # edit text
+    Text: "edit 🖋️" # edit text
     appendFilePath: true # to append file path to Edit link
 
   # for search
@@ -116,21 +121,25 @@ params:
 menu:
   main:
     - identifier: Categories
-      name: categories
+      name: Categories
       url: /categories/
       weight: 10
     - identifier: Tags
-      name: tags
+      name: Tags
       url: /tags/
       weight: 20
-    - identifier: Archives
-      name: archives
-      url: /archives/
-      weight: 20
-    - identifier: search
-      name: search
+    - identifier: Search
+      name: Search
       url: /search/
       weight: 30
+    - identifier: Archives
+      name: Archives
+      url: /archives/
+      weight: 40
+    - identifier: Editor's Picks
+      name: Editor's Picks
+      url: /editors-picks/
+      weight: 50
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
