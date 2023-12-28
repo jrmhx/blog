@@ -11,19 +11,18 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 29 Dec 2023 00:15:00 +1100</lastBuildDate>
     <atom:link href="https://jrmh.dev/editors-picks/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CS Self-Study Guides for Reference</title>
       <link>https://jrmh.dev/editors-picks/cs-self-study/</link>
-      <pubDate>Fri, 29 Dec 2023 00:15:00 +1100</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://jrmh.dev/editors-picks/cs-self-study/</guid>
       <description> A Self-learning Guide for Computer Science: csdiy.wiki freeCodeCamp TBC&amp;hellip; </description>
     </item>
     <item>
       <title>Java</title>
       <link>https://jrmh.dev/editors-picks/java/</link>
-      <pubDate>Fri, 29 Dec 2023 00:15:00 +1100</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://jrmh.dev/editors-picks/java/</guid>
       <description> Java Roadmap for 2024 by Nelson TBC&amp;hellip; </description>
     </item>
