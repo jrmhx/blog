@@ -14,3 +14,4 @@ draft: false
 ---
 
 - [A Self-learning Guide for Computer Science: csdiy.wiki](https://csdiy.wiki/en/)
+- [Java Roadmap for 2024 by Nelson](https://blog.amigoscode.com/p/your-java-roadmap-for-2024)
