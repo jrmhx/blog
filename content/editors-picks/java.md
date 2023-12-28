@@ -1,5 +1,5 @@
 ---
-title: "CS Self-Study Guides for Reference"
+title: "Java"
 date: 2023-12-29T00:15:00+11:00
 # weight: 1
 # aliases: ["/first"]
@@ -13,6 +13,5 @@ cover:
 draft: false
 ---
 
-- [A Self-learning Guide for Computer Science: csdiy.wiki](https://csdiy.wiki/en/)
-- [freeCodeCamp](https://www.freecodecamp.org/)
+- [Java Roadmap for 2024 by Nelson](https://blog.amigoscode.com/p/your-java-roadmap-for-2024)
 - TBC...
