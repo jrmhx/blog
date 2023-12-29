@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>memory on Jeremiah&#39;s Blog</title>
+    <link>https://jrmh.dev/tags/memory/</link>
+    <description>Recent content in memory on Jeremiah&#39;s Blog</description>
+    <image>
+      <title>Jeremiah&#39;s Blog</title>
+      <url>https://jrmh.dev/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://jrmh.dev/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 29 Dec 2023 18:10:00 +1100</lastBuildDate>
+    <atom:link href="https://jrmh.dev/tags/memory/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Multidimensional Arrays and Pointers in C</title>
+      <link>https://jrmh.dev/posts/md_arrays_in_c/</link>
+      <pubDate>Fri, 29 Dec 2023 18:10:00 +1100</pubDate>
+      <guid>https://jrmh.dev/posts/md_arrays_in_c/</guid>
+      <description>Multi-dimensional arrays in C can be somewhat confusing, especially when it comes to pointers and memory layout. This blog post aims to give beginners in C a kick-off and disenchant these concepts. In my humble opinion, if you master the pointers, you master the core concept of C language.
+Before Starting: This post is inspiried by this question on stackoverflow. For an easy kick-off, better if you already have these pre-knowledges (but no worries if you don&amp;rsquo;t, I&amp;rsquo;ll share some links): basic understanding of memory address &amp;amp; pointers in C: https://www.</description>
+    </item>
+  </channel>
+</rss>

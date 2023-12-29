@@ -11,8 +11,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 29 Dec 2023 14:00:00 +1100</lastBuildDate>
+    <lastBuildDate>Fri, 29 Dec 2023 18:10:00 +1100</lastBuildDate>
     <atom:link href="https://jrmh.dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Multidimensional Arrays and Pointers in C</title>
+      <link>https://jrmh.dev/posts/md_arrays_in_c/</link>
+      <pubDate>Fri, 29 Dec 2023 18:10:00 +1100</pubDate>
+      <guid>https://jrmh.dev/posts/md_arrays_in_c/</guid>
+      <description>Multi-dimensional arrays in C can be somewhat confusing, especially when it comes to pointers and memory layout. This blog post aims to give beginners in C a kick-off and disenchant these concepts. In my humble opinion, if you master the pointers, you master the core concept of C language.
+Before Starting: This post is inspiried by this question on stackoverflow. For an easy kick-off, better if you already have these pre-knowledges (but no worries if you don&amp;rsquo;t, I&amp;rsquo;ll share some links): basic understanding of memory address &amp;amp; pointers in C: https://www.</description>
+    </item>
     <item>
       <title>Linux Primitives</title>
       <link>https://jrmh.dev/posts/linux_primitives/</link>
@@ -45,6 +53,13 @@ awk &amp;#39;pattern {action}&amp;#39; file pattern: A condition to match (like 
       <guid>https://jrmh.dev/posts/bash_pipe/</guid>
       <description>Shell pipes are a powerful feature of command-line interfaces in Unix and Unix-like systems, including Linux and macOS. They allow you to pass the output of one command directly into another command, creating a &amp;ldquo;pipeline&amp;rdquo; of operations. This can greatly simplify your tasks and enable efficient data processing. In this post, we&amp;rsquo;ll explore the basics of shell pipes and see some practical examples.
 What is a Shell Pipe? A shell pipe, denoted by the | symbol, takes the output (stdout) of one command and uses it as the input (stdin) for the next command.</description>
+    </item>
+    <item>
+      <title>C/C&#43;&#43;</title>
+      <link>https://jrmh.dev/editors-picks/c_cpp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://jrmh.dev/editors-picks/c_cpp/</guid>
+      <description> Multidimensional Arrays and Pointers in C TBC&amp;hellip; </description>
     </item>
     <item>
       <title>CS Self-Study Guides for Reference</title>
