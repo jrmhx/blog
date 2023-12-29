@@ -1,5 +1,5 @@
 ---
-title: "Multidimensional Arrays and Pointers in C"
+title: "Static Multidimensional Arrays and Pointers in C"
 date: 2023-12-29T18:10:00+11:00
 # weight: 1
 # aliases: ["/first"]
