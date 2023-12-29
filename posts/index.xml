@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 20 Dec 2023 00:55:00 +1100</lastBuildDate>
+    <lastBuildDate>Fri, 29 Dec 2023 14:00:00 +1100</lastBuildDate>
     <atom:link href="https://jrmh.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux Primitives</title>
+      <link>https://jrmh.dev/posts/linux_primitives/</link>
+      <pubDate>Fri, 29 Dec 2023 14:00:00 +1100</pubDate>
+      <guid>https://jrmh.dev/posts/linux_primitives/</guid>
+      <description>In Linux, these concepts are foundational: You will see lots of faces in the list (like Mounts, Processes, &amp;hellip;) while using containerization tools like Docker. Processes: These are running instances of programs. Linux manages them, allocating resources and scheduling their execution. Mounts: This refers to attaching a file system to a directory, enabling access to files in storage. chroot/pivot_root: These are methods to change the root directory. chroot changes the perceived root directory for a process, while pivot_root is used in system initialization, replacing the old root with a new one.</description>
+    </item>
     <item>
       <title>Secure and Low-latency SSH Connection: Setting Up via Tailscale</title>
       <link>https://jrmh.dev/posts/ssh_tailscale/</link>

@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 20 Dec 2023 00:55:00 +1100</lastBuildDate>
+    <lastBuildDate>Fri, 29 Dec 2023 14:00:00 +1100</lastBuildDate>
     <atom:link href="https://jrmh.dev/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux</title>
+      <link>https://jrmh.dev/categories/linux/</link>
+      <pubDate>Fri, 29 Dec 2023 14:00:00 +1100</pubDate>
+      <guid>https://jrmh.dev/categories/linux/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Coding Setup</title>
       <link>https://jrmh.dev/categories/coding-setup/</link>
