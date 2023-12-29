@@ -77,8 +77,8 @@ params:
     Title: "Hi there,"
     Content: | 
       - I'm Jeremiah, this is where I share my journey as I explore the world of programming and more. 
-      -
-      - Feel free to get in touch with me via:
+      - Feel free to contribute to my blog by clicking the `edit🖋️` and submitting a PR :)
+      - To get in touch with me via 👇
 
   socialIcons:
     - name: linkedin
