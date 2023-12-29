@@ -24,7 +24,7 @@ Multi-dimensional arrays in C can be somewhat confusing, especially when it come
   - basic understanding of memory address & pointers in C:
     - https://www.w3schools.com/c/c_memory_address.php
     - https://www.w3schools.com/c/c_pointers.php
-  - an array (whatever how many dimensions it is) in C is stored **contiguously** in memory
+  - an array (whatever how many dimensions it is) in C as long as it's a **static allocated** array is stored **contiguously** in memory
   - an online IDE with compiler that might come in handy: [jdoodle C](https://www.jdoodle.com/c-online-compiler/)
   
 
@@ -191,3 +191,4 @@ For an advanced understanding of C, computer architecture, compilation principle
 - [GeeksforGeeks: lvalue and rvalue in C language](https://www.geeksforgeeks.org/lvalue-and-rvalue-in-c-language/)
 - [CppReference: C99 variable length arrays](https://en.cppreference.com/w/c/language/array#Variable-length_arrays)
 - [CMU 15-213: CSAPP](https://csapp.cs.cmu.edu/)
+
