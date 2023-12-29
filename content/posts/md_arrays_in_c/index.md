@@ -24,7 +24,7 @@ Multi-dimensional arrays in C can be somewhat confusing, especially when it come
   - basic understanding of memory address & pointers in C:
     - https://www.w3schools.com/c/c_memory_address.php
     - https://www.w3schools.com/c/c_pointers.php
-  - an array (whatever how many dimensions it is) in C as long as it's a **static allocated** array is stored **contiguously** in memory
+  - an array (whatever how many dimensions it is) in C as long as it's a **static allocated** array is stored **contiguously** in memory. So this means the compiler will treat the 2D array `matrix[3][3]` as a 1D array if you don't explicitly tell the compiler to treat it like a 2D one. (might be confusing but I'll explain it with examples)
   - an online IDE with compiler that might come in handy: [jdoodle C](https://www.jdoodle.com/c-online-compiler/)
   
 
@@ -75,6 +75,45 @@ Now let's break down these different kinds of "pointers" in C to understand the 
 ---
 
 So The function `convert_to_csr` is expecting a parameter of type `int**`, which is a pointer to a pointer to an `int`. This is fundamentally different from `int (*)[3]` in terms of memory layout and how the pointer arithmetic works. That's why the error has been thrown.
+
+I know it might be confusing, lets come back to this "a **static** array (whatever how many dimensions it is) in C is stored contiguously in memory" and "the compiler will treat the 2D array `matrix[3][3]` as a 1D array if you don't explicitly tell the compiler to treat it like a 2D one".
+
+Here's a perfect example to explain everything, please run the following code:
+
+```c
+#include<stdio.h>
+
+int main(void) {
+    int matrix[3][3] = {
+        {0, 1, 0},
+        {0, 0, 1},
+        {0, 1, 0}
+    };
+   
+    int **ptr1 = matrix;
+    int (*ptr2)[3] = matrix;
+    printf("ptr1: %p\n", ptr1);
+    printf("ptr2: %p\n", ptr2);
+    printf("*ptr1: %p\n", *ptr1);
+    printf("*ptr2: %p\n", *ptr2);
+    return 0;
+} 
+```
+
+You can get the output like:
+```
+ptr1: 0x7ffe5261a090
+ptr2: 0x7ffe5261a090
+*ptr1: 0x100000000
+*ptr2: 0x7ffe5261a090
+```
+Your `ptr1`, `ptr2`,and `*ptr2` might be different than mine (as we run on different machine) but the third line `*ptr1: 0x100000000` should be the same and it doesn't looks like an actual address at all.
+
+This is what I mean by "the compiler treat it like a 1D array if you don't tell it". So when you dereference `ptr1` using `*ptr1`, you're treating the value at `matrix[0][0]` as a pointer (since `ptr1` is an `int**`). This is why you get a strange and seemingly unrelated memory address, like `0x100000000`. It's interpreting the integer value at `matrix[0][0]` (which is `0`) as a memory address, leading to a sig fault.
+
+Please notice that operation like `int **ptr1 = matrix;` is actually problematic and should not compile without a warning or error in standard C. `ptr1` is a pointer to a pointer to an int, but `matrix` is a 2D array (specifically, an array of arrays of int). In C, these are not compatible types, as the memory layout they expect is different. If your compiler allows this assignment, it's doing so without proper type checking, which is unsafe.
+
+`int ** arr` is typically used for a dynamically allocated 2D array (`malloc()`) where each row is an independently allocated array of integers, and `arr` points to an array of pointers, each pointing to one of these rows.
 
 ### What's the Solutions?
 
