@@ -14,7 +14,7 @@
     <lastBuildDate>Fri, 29 Dec 2023 18:10:00 +1100</lastBuildDate>
     <atom:link href="https://jrmh.dev/categories/c/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Multidimensional Arrays and Pointers in C</title>
+      <title>Static Multidimensional Arrays and Pointers in C</title>
       <link>https://jrmh.dev/posts/md_arrays_in_c/</link>
       <pubDate>Fri, 29 Dec 2023 18:10:00 +1100</pubDate>
       <guid>https://jrmh.dev/posts/md_arrays_in_c/</guid>

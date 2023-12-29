@@ -20,9 +20,6 @@
     <loc>https://jrmh.dev/tags/memory/</loc>
     <lastmod>2023-12-29T18:10:00+11:00</lastmod>
   </url><url>
-    <loc>https://jrmh.dev/posts/md_arrays_in_c/</loc>
-    <lastmod>2023-12-29T18:10:00+11:00</lastmod>
-  </url><url>
     <loc>https://jrmh.dev/tags/pointer/</loc>
     <lastmod>2023-12-29T18:10:00+11:00</lastmod>
   </url><url>
@@ -33,6 +30,9 @@
     <lastmod>2023-12-29T18:10:00+11:00</lastmod>
   </url><url>
     <loc>https://jrmh.dev/tags/segmentation-fault/</loc>
+    <lastmod>2023-12-29T18:10:00+11:00</lastmod>
+  </url><url>
+    <loc>https://jrmh.dev/posts/md_arrays_in_c/</loc>
     <lastmod>2023-12-29T18:10:00+11:00</lastmod>
   </url><url>
     <loc>https://jrmh.dev/tags/</loc>
