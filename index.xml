@@ -55,13 +55,6 @@ awk &amp;#39;pattern {action}&amp;#39; file pattern: A condition to match (like 
 What is a Shell Pipe? A shell pipe, denoted by the | symbol, takes the output (stdout) of one command and uses it as the input (stdin) for the next command.</description>
     </item>
     <item>
-      <title>C/C&#43;&#43;</title>
-      <link>https://jrmh.dev/editors-picks/c_cpp/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jrmh.dev/editors-picks/c_cpp/</guid>
-      <description> TBC&amp;hellip; </description>
-    </item>
-    <item>
       <title>CS Self-Study Guides for Reference</title>
       <link>https://jrmh.dev/editors-picks/cs-self-study/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
