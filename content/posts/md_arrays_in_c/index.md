@@ -19,7 +19,6 @@ draft: false
 Multi-dimensional arrays in C can be somewhat confusing, especially when it comes to pointers and memory layout. This blog post aims to give beginners in C a kick-off and disenchant these concepts. In my humble opinion, if you master the pointers, you master the core concept of C language.
 
 ### Before Starting:
-- This post is inspiried by [this question on stackoverflow](https://stackoverflow.com/questions/77730288/passing-double-pointers-as-2d-arrays-in-c/).
 - For an easy kick-off, better if you already have these pre-knowledges (but no worries if you don't, I'll share some links):
   - basic understanding of memory address & pointers in C:
     - https://www.w3schools.com/c/c_memory_address.php
@@ -229,7 +228,6 @@ Even though, I reckon that understanding that Memory Allocation stuff is critica
 For an advanced understanding of C, computer architecture, compilation principle and even a bit linux system kernel, please have a look at [CMU 15-213: CSAPP](https://csapp.cs.cmu.edu/). It's not easy, but no cap that it's my first inspired course in computer science study jounery. It indeed cooked most of the fundamentals you need to know in computer science. Its reputation is well deserived🙂.
 
 ### Some References:
-- [StackOverflow: passing double pointers as 2d arrays in C](https://stackoverflow.com/questions/77730288/passing-double-pointers-as-2d-arrays-in-c/)
 - [GeeksforGeeks: lvalue and rvalue in C language](https://www.geeksforgeeks.org/lvalue-and-rvalue-in-c-language/)
 - [CppReference: C99 variable length arrays](https://en.cppreference.com/w/c/language/array#Variable-length_arrays)
 - [CMU 15-213: CSAPP](https://csapp.cs.cmu.edu/)
