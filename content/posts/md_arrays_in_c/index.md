@@ -117,7 +117,7 @@ Please notice that operation like `int **ptr1 = matrix;` is actually problematic
 
 ### What's the Solutions?
 
-A generic solution in C for passing 2D or multi-dimensional array as paramenter is using `void*` pointer. 
+One solution in C for passing 2D or multi-dimensional array as paramenter is using `void*` pointer. 
 
 But please be careful because `void*` pointers lack any information about the type they point to, like the pointered-to variable's size. So when working with `void*` pointers, you have to explicitly manage the pointer arithmetic and type casting.
 
@@ -154,7 +154,7 @@ int main(void) {
     return 0;
 }
 ```
-This `void*` approach could be useful if your compiler doesn't support variable length array arguments.
+This `void*` approach could be confusing though.
 
 ---
 
