@@ -1,5 +1,5 @@
 ---
-title: "Static Multidimensional Arrays and Pointers in C"
+title: "Multidimensional Arrays and Pointers in C"
 date: 2023-12-29T18:10:00+11:00
 # weight: 1
 # aliases: ["/first"]
@@ -25,6 +25,9 @@ Multi-dimensional arrays in C can be somewhat confusing, especially when it come
     - https://www.w3schools.com/c/c_memory_address.php
     - https://www.w3schools.com/c/c_pointers.php
   - an array (whatever how many dimensions it is) in C as long as it's a **static allocated** array is stored **contiguously** in memory. So this means the compiler will treat the 2D array `matrix[3][3]` as a 1D array if you don't explicitly tell the compiler to treat it like a 2D one. (might be confusing but I'll explain it with examples)
+  - the difference between **static** allocated array and **dynamic** allocated array in C:
+    - ![s_array](s_array.png)
+    - ![d_array](darray.png)
   - an online IDE with compiler that might come in handy: [jdoodle C](https://www.jdoodle.com/c-online-compiler/)
   
 
