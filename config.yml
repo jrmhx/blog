@@ -119,22 +119,22 @@ menu:
       name: Categories
       url: /categories/
       weight: 10
-    - identifier: Tags
-      name: Tags
-      url: /tags/
+    # - identifier: Tags
+    #   name: Tags
+    #   url: /tags/
+    #   weight: 20
+    - identifier: Archives
+      name: Archives
+      url: /archives/
       weight: 20
     - identifier: Search
       name: Search
       url: /search/
       weight: 30
-    - identifier: Archives
-      name: Archives
-      url: /archives/
-      weight: 40
     - identifier: Editor's Picks
       name: 🌟Editor's Picks🌟
       url: /editors-picks/
-      weight: 50
+      weight: 40
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
