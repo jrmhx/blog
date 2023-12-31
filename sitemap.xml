@@ -2,40 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jrmh.dev/posts/2d_array_c/</loc>
+    <lastmod>2023-12-31T22:10:00+11:00</lastmod>
+  </url><url>
     <loc>https://jrmh.dev/tags/array/</loc>
-    <lastmod>2023-12-29T18:10:00+11:00</lastmod>
+    <lastmod>2023-12-31T22:10:00+11:00</lastmod>
   </url><url>
     <loc>https://jrmh.dev/tags/c/</loc>
-    <lastmod>2023-12-29T18:10:00+11:00</lastmod>
+    <lastmod>2023-12-31T22:10:00+11:00</lastmod>
   </url><url>
     <loc>https://jrmh.dev/categories/c/</loc>
-    <lastmod>2023-12-29T18:10:00+11:00</lastmod>
+    <lastmod>2023-12-31T22:10:00+11:00</lastmod>
   </url><url>
     <loc>https://jrmh.dev/categories/</loc>
-    <lastmod>2023-12-29T18:10:00+11:00</lastmod>
+    <lastmod>2023-12-31T22:10:00+11:00</lastmod>
   </url><url>
     <loc>https://jrmh.dev/</loc>
+    <lastmod>2023-12-31T22:10:00+11:00</lastmod>
+  </url><url>
+    <loc>https://jrmh.dev/posts/</loc>
+    <lastmod>2023-12-31T22:10:00+11:00</lastmod>
+  </url><url>
+    <loc>https://jrmh.dev/categories/programming/</loc>
+    <lastmod>2023-12-31T22:10:00+11:00</lastmod>
+  </url><url>
+    <loc>https://jrmh.dev/tags/</loc>
+    <lastmod>2023-12-31T22:10:00+11:00</lastmod>
+  </url><url>
+    <loc>https://jrmh.dev/posts/md_arrays_in_c/</loc>
     <lastmod>2023-12-29T18:10:00+11:00</lastmod>
   </url><url>
     <loc>https://jrmh.dev/tags/memory/</loc>
     <lastmod>2023-12-29T18:10:00+11:00</lastmod>
   </url><url>
-    <loc>https://jrmh.dev/posts/md_arrays_in_c/</loc>
-    <lastmod>2023-12-29T18:10:00+11:00</lastmod>
-  </url><url>
     <loc>https://jrmh.dev/tags/pointer/</loc>
     <lastmod>2023-12-29T18:10:00+11:00</lastmod>
   </url><url>
-    <loc>https://jrmh.dev/posts/</loc>
-    <lastmod>2023-12-29T18:10:00+11:00</lastmod>
-  </url><url>
-    <loc>https://jrmh.dev/categories/programming/</loc>
-    <lastmod>2023-12-29T18:10:00+11:00</lastmod>
-  </url><url>
     <loc>https://jrmh.dev/tags/segmentation-fault/</loc>
-    <lastmod>2023-12-29T18:10:00+11:00</lastmod>
-  </url><url>
-    <loc>https://jrmh.dev/tags/</loc>
     <lastmod>2023-12-29T18:10:00+11:00</lastmod>
   </url><url>
     <loc>https://jrmh.dev/tags/linux/</loc>
@@ -85,7 +88,9 @@
   </url><url>
     <loc>https://jrmh.dev/archives/</loc>
   </url><url>
-    <loc>https://jrmh.dev/editors-picks/cs-self-study/</loc>
+    <loc>https://jrmh.dev/editors-picks/cs_self_study/</loc>
+  </url><url>
+    <loc>https://jrmh.dev/editors-picks/design_pattern/</loc>
   </url><url>
     <loc>https://jrmh.dev/editors-picks/docker/</loc>
   </url><url>

@@ -11,15 +11,22 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 29 Dec 2023 18:10:00 +1100</lastBuildDate>
+    <lastBuildDate>Sun, 31 Dec 2023 22:10:00 +1100</lastBuildDate>
     <atom:link href="https://jrmh.dev/tags/array/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Multidimensional Arrays and Pointers in C</title>
+      <title>2D Arrays in C</title>
+      <link>https://jrmh.dev/posts/2d_array_c/</link>
+      <pubDate>Sun, 31 Dec 2023 22:10:00 +1100</pubDate>
+      <guid>https://jrmh.dev/posts/2d_array_c/</guid>
+      <description>Let&amp;rsquo;s say you want to represent a 3 * 3 matrix using an array in C. Here are some fashions that you can apply: Static 2D Array Create Array: int arr[3][3] = { {0, 1, 0}, {0, 0, 1}, {0, 1, 0} }; Traverse Array: for (int i = 0; i &amp;lt; 3; i++) { for (int j = 0; j &amp;lt; 3; j++) { printf(&amp;#34;%d &amp;#34;, arr[i][j]); } printf(&amp;#34;\n&amp;#34;); } Free Array: // No need to worry about, as it&amp;#39;s created on the stack.</description>
+    </item>
+    <item>
+      <title>2D Arrays and Pointers in C</title>
       <link>https://jrmh.dev/posts/md_arrays_in_c/</link>
       <pubDate>Fri, 29 Dec 2023 18:10:00 +1100</pubDate>
       <guid>https://jrmh.dev/posts/md_arrays_in_c/</guid>
-      <description>Multi-dimensional arrays in C can be somewhat confusing, especially when it comes to pointers and memory layout. This blog post aims to give beginners in C a kick-off and disenchant these concepts. In my humble opinion, if you master the pointers, you master the core concept of C language.
-Before Starting: For an easy kick-off, better if you already have these pre-knowledges (but no worries if you don&amp;rsquo;t, I&amp;rsquo;ll share some links): basic understanding of memory address &amp;amp; pointers in C: https://www.</description>
+      <description>Before Starting: basic understanding of memory address &amp;amp; pointers in C: https://www.w3schools.com/c/c_memory_address.php https://www.w3schools.com/c/c_pointers.php 2D arrays in C an online IDE with compiler that might come in handy: jdoodle C What&amp;rsquo;s the Issue? Let&amp;rsquo;s understand the problem first, here&amp;rsquo;s a C code snippet with bugs.
+#include&amp;lt;stdio.h&amp;gt; void traverse(int **matrix, size_t row_len, size_t col_len){ for (int i = 0; i &amp;lt; row_len; i++){ for (int j = 0; j &amp;lt; col_len; j++){ printf(&amp;#34;%d &amp;#34;, matrix[i][j]); } printf(&amp;#34;\n&amp;#34;); } } int main(void) { int matrix[3][3] = { {0, 1, 0}, {0, 0, 1}, {0, 1, 0} }; traverse(matrix, 3, 3); } Simply copy and paste and run it.</description>
     </item>
   </channel>
 </rss>
