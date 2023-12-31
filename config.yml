@@ -132,7 +132,7 @@ menu:
       url: /archives/
       weight: 40
     - identifier: Editor's Picks
-      name: Editor's Picks
+      name: 🌟Editor's Picks🌟
       url: /editors-picks/
       weight: 50
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
