@@ -218,15 +218,6 @@ int main(void) {
 ```
 This is a cleaner and more straightforward way of handling arrays of varying sizes in C, provided that the compiler supports C99 or later standards.
 
-### Last Talking Cock:
-If you understand the pointers and mutidimentional arrays in C, you already A MASTER OF C! 💃🏻💃🏻💃🏻🕺🏻🕺🏻🕺🏻
-
-Lol but honestly, in C there's not necessary many cool stuffs (like `vector` in C++ or GC in Java). That why you might find C usually under the shadow of C++🥲.
-
-Even though, I reckon that understanding that Memory Allocation stuff is critical for learning whatever kinds of programming languages. **It's not just the language but the mindset as a programmer**. 
-
-For an advanced understanding of C, computer architecture, compilation principle and even a bit linux system kernel, please have a look at [CMU 15-213: CSAPP](https://csapp.cs.cmu.edu/). It's not easy, but no cap that it's my first inspired course in computer science study jounery. It indeed cooked most of the fundamentals you need to know in computer science. Its reputation is well deserived🙂.
-
 ### Some References:
 - [GeeksforGeeks: lvalue and rvalue in C language](https://www.geeksforgeeks.org/lvalue-and-rvalue-in-c-language/)
 - [CppReference: C99 variable length arrays](https://en.cppreference.com/w/c/language/array#Variable-length_arrays)
