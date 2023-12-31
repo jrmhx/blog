@@ -4,7 +4,7 @@ title: "Design Pattern"
 # aliases: ["/first"]
 # author: ["Me", "You"] # multiple authors
 cover:
-      image: "design_pattern.png" # image path/url
+      image: "cover.png" # image path/url
       alt: "<alt text>" # alt text
       caption: "<text>" # display caption under cover
       relative: true # when using page bundles set this to true
