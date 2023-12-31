@@ -85,8 +85,6 @@ params:
       url: "https://www.linkedin.com/in/jeremiahhsing/"
     - name: github
       url: "https://github.com/JeremiahXing"
-    - name: stackoverflow
-      url: "https://stackoverflow.com/users/16084078/"
     - name: twitter
       url: "https://twitter.com/jrmhdev"
     - name: email
