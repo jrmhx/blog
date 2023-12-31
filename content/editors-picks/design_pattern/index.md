@@ -8,9 +8,9 @@ cover:
       alt: "<alt text>" # alt text
       caption: "<text>" # display caption under cover
       relative: true # when using page bundles set this to true
-      hidden: false # only hide on current single page
+      hidden: true # only hide on current single page
       hiddenInList: false # hide on list pages and home
-      hiddenInSingle: false # hide on single page
+      hiddenInSingle: true # hide on single page
 draft: false
 ---
 
