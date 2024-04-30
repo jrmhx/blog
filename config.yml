@@ -84,7 +84,7 @@ params:
     - name: linkedin
       url: "https://www.linkedin.com/in/jeremiahhsing/"
     - name: github
-      url: "https://github.com/JeremiahXing"
+      url: "https://github.com/jrmhx"
     - name: twitter
       url: "https://twitter.com/jrmhdev"
     - name: email
@@ -99,7 +99,7 @@ params:
   #     SiteVerificationTag: "XYZabc" # please change this to your own
 
   editPost:
-    URL: "https://github.com/JeremiahXing/blog/tree/main/content"
+    URL: "https://github.com/jrmhx/blog/tree/main/content"
     Text: "edit 🖋️" # edit text
     appendFilePath: true # to append file path to Edit link
 
